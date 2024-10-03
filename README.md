@@ -29,10 +29,10 @@ Navigate to the project folder and open the index.html file in your web browser 
 
 
 ## Screenshots 📸
-<img src="https://github.com/Anwarulh007/VoyageNest/blob/main/head.jpg" alt="logo" width="200"/>
-<img src="https://github.com/Anwarulh007/VoyageNest/blob/main/body.jpg" alt="logo" width="200"/>
-<img src="https://github.com/Anwarulh007/VoyageNest/blob/main/tour.jpg" alt="logo" width="200"/>
-<img src="https://github.com/Anwarulh007/VoyageNest/blob/main/login.jpg" alt="logo" width="200"/>
+<img src="https://github.com/Anwarulh007/VoyageNest/blob/main/head.jpg" alt="logo" width="800"/>
+<img src="https://github.com/Anwarulh007/VoyageNest/blob/main/body.jpg" alt="logo" width="600"/>
+<img src="https://github.com/Anwarulh007/VoyageNest/blob/main/tour.jpg" alt="logo" width="600"/>
+<img src="https://github.com/Anwarulh007/VoyageNest/blob/main/login.jpg" alt="logo" width="600"/>
 
 ## Live Demo 🔗
 [Visit VoyageNest](https://voyagenest.netlify.app/) – Experience our live demo and start planning your journey now!
