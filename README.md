@@ -47,7 +47,7 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 
 ## Contact 📧
 For inquiries, feedback, or support, feel free to reach out:
-Email: youremail@example.com
+Email: anwarul00000000000@gmail.com
 
 ## Made with ♡ by Anwarul Haque
 
