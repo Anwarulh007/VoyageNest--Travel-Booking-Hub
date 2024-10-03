@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="This static travel booking website is designed to provide users with a seamless experience in planning their trips. The site features a simple and intuitive layout, offering users the ability to book hotels, train tickets, flight tickets, and select from a variety of travel packages." /> 
+    <title>Contact Us</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+
+        /* Header and Navigation Bar */
+        header { background-color: #0047ab; color: white; padding: 20px; text-align: center; }
+
+        header nav { max-width: 100%; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-color: #003580; }
+
+        header nav ul { display: flex; list-style: none; justify-content: flex-start; flex-wrap: wrap; }
+
+        header nav ul li { margin: 0 15px; }
+
+        header nav ul li a { color: white; text-decoration: none; font-size: 16px; font-weight: bold; display: flex; align-items: center; padding: 5px 10px; }
+
+        header nav ul li a img { width: 24px; height: 24px; margin-right: 8px; border-radius: 3px;}
+
+        header nav ul li a:hover {transform: scale(1.10); background-color: #ff8000; border-radius: 5px; transition: background-color 0.3s; }
+
+        .logo-container { display: flex; align-items: center; }
+
+        .logo-container img { width: 40px;  height: 40px; margin-left: 10px; border-radius: 10px; }
+
+        .logo-container a { color: white; font-size: 24px; font-weight: bold; text-decoration: none; }
+
+        .logo-container a:hover { color: #ff8000; transition: color 0.3s; }
+
+        /* Header Text */
+        header h1 { margin: 20px 0; font-size: 32px; font-weight: bold; }
+
+        header p { font-size: 18px; }
+
+        /* Main Section */
+        main { padding: 20px; }
+
+        main section h2 { font-size: 28px; margin-bottom: 10px; color: #003580; }
+
+        main section p, main .faq-item p { font-size: 18px;  margin-bottom: 20px; }
+
+        a.contact-us-button { display: inline-flex; align-items: center;  padding: 10px 20px; background-color: #0047ab; color: white; text-decoration: none; border-radius: 5px; font-size: 18px;font-weight: bold; transition: background-color 0.3s, transform 0.3s; margin-top: 20px; }
+    
+        a.contact-us-button img { width: 24px; height: 24px;  margin-right: 10px; border-radius: 3px;  }
+    
+        a.contact-us-button:hover { background-color: #ff8000; transform: scale(1.05); }
+
+        /* Image Box */
+        .image-box { max-width: 100%; text-align: center; margin: 20px 0;}
+
+        .image-box img { max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
+        /* Form Styles */
+        form { display: flex; flex-direction: column; gap: 10px; }
+
+        form label { font-size: 18px; font-weight: bold; color: #003580;}
+
+        form input, form button { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+
+        form button { background-color: #0047ab; color: white; border: none; cursor: pointer;  font-size: 18px; font-weight: bold; }
+
+        form button:hover { background-color: #003580; }
+
+     /* FAQ Section */
+     .faq-item { margin-bottom: 20px; }
+
+     .faq-item h3 { font-size: 20px; color: #003580; margin-bottom: 10px; }
+
+     .faq-item p { font-size: 16px; color: #333;}
+
+     .faq-item p ul { margin-top: 10px; padding-left: 10px; }
+
+     .faq-item p ul li {font-size: 16px; }
+
+     /* Footer Styles */
+     footer {background-color: #003580; color: white;  text-align: center; padding: 20px;  margin-top: 20px; }
+
+     footer p {margin: 5px 0;}
+
+     #scrollTopBtn { display: none; /* Hidden by default */  position: fixed;  bottom: 20px;  right: 20px; z-index: 99; /* Ensure it's on top */
+     background-color: #2968c0; color: white; padding: 10px 10px;border: none; border-radius: 3px; cursor: pointer; }
+
+    #scrollTopBtn:hover { background-color: #ff8000; transform: scale(1.05); }
+
+    #clock {font-size: 20px; font-family: 'Arial', sans-serif; color:  white; padding: 5px; }
+
+
+     /* Responsive Design */
+     @media (max-width: 768px) {
+         header nav { flex-direction: column; align-items: flex-start; }
+
+         header nav ul { flex-direction: row;   flex-wrap: wrap; justify-content: flex-start; }
+
+         header nav ul li { margin: 15px; width: 22%;  text-align: center; }
+
+         header h1 {  font-size: 24px; }
+
+         main section h2 { font-size: 24px; }
+
+         .package-item { width: 100%; margin-bottom: 20px; }
+
+         main .faq-item h3 {font-size: 18px;  }
+
+         form input, form button {font-size: 14px;}
+     }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <a href="index.html">VoyageNest</a>
+                <img src="logo.png" alt="VoyageNest Logo">
+            </div>
+            <ul>
+                <li><a href="packages.html"><img src="package.png" alt="Packages Icon">Tours</a></li>
+                <li><a href="Flight.html"><img src="flights.png" alt="Flight Icon">Flights</a></li>
+                <li><a href="hotel.html"><img src="hotel.png" alt="Hotel Icon">Hotels</a></li>
+                <li><a href="Train.html"><img src="Train.png" alt="Train Icon">Trains</a></li>
+                <li><a href="Bus.html"><img src="bus.png" alt="Bus Icon">Bus</a></li>
+                <li><a href="LoginSignup.html"><img src="user.png" alt="Login Icon">Login</a></li>
+            </ul>
+        </nav>
+        <h1>Explore, Dream, Discover!</h1>
+        <p>Turn your travel dreams into reality with VoyageNest.</p>
+    </header>
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to Your Next Adventure with VoyageNest!</h2>
+            <p>Book your hotels, trains, bus, flights, and travel packages all in one place!</p>
+        </section>
+
+        <!-- Image Box Section -->
+        <div class="image-box">
+            <img src="travels.jpg" alt="Beautiful Destination">
+        </div>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+            <button id="scrollTopBtn" onclick="scrollToTop()"><img src="gr.jpg" style="height: 40px;"></button>
+            <div class="faq-item">
+                <br>
+                <h2>Frequently Asked Questions</h2><br>
+                <h3>Q: What are the popular Indian cities frequently visited by people?</h3>
+                <p>A: India offers a wide spectrum of experiences and landscapes. People travel in India for three main purposes: Business, Leisure, and Religious. Popular business cities include Mumbai, Delhi, Bangalore, Ahmedabad, Kolkata,etc.
+                    Leisure travel destinations include Goa, Jaipur, Manali,etc. Religious travel destinations include Katra, Shirdi, Amritsar,etc.
+                </p>
+            </div>
+          
+            <div class="faq-item">
+                <h3>Q: Which Indian hotels are popular among travelers for online hotel booking?</h3>
+                <p>A: India, being a traveler’s paradise, attracts visitors from all over the world. Some popular hotels in major business cities include The Taj Mahal Hotel Mumbai, The Lalit Delhi, and Park Hyatt Hyderabad. Leisure destinations boast hotels like The Leela Goa, Taj Lake Palace Udaipur, and Radisson Blu Jaipur. All these hotels can be easily booked online at the best prices through VoyageNest.</p>
+            </div>
+    
+            <div class="faq-item">
+                <h3>Q: What are the popular international cities for online hotel booking?</h3>
+                <p>A: Popular international cities for hotel booking include Dubai, Singapore, Phuket, Maldives, Paris, London, and Bali. VoyageNest offers a vast selection of hotels in these cities, ensuring you can find the perfect stay with ease.</p>
+            </div>
+    
+            <div class="faq-item">
+                <h3>Q: How can I do a hotel booking at the lowest price through VoyageNest?</h3>
+                <p>A: VoyageNest offers a smooth and hassle-free hotel booking process at the lowest prices. By visiting the VoyageNest website or app, you can enter your city name, check-in and check-out dates, and room requirements to view a range of hotel options. Filters allow you to customize your search based on price range, star category, location, and more. VoyageNest also provides exciting discounts and offers that you can apply during the booking process.</p>
+            </div>
+    
+            <div class="faq-item">
+                <h3>Q: How can I earn and use GoCash on hotel booking on VoyageNest?</h3>
+                <p>A: You can earn GoCash by inviting friends, referring them, and syncing your contacts each time you book a hotel online. Your GoCash+Rewards level is calculated based on your eligible GoCash earnings over the last 12 months. During hotel booking, the available GoCash in your wallet is automatically applied to help reduce your costs.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 VoyageNest. All rights reserved.</p>
+        <p>Email: info@Voyagenest.com | Phone: +91-9073536911</p>
+        <div id="clock"></div>
+    </footer>
+    <script>
+        // Get the button
+        const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+        // Show button when scrolling down
+        window.onscroll = function() {toggleScrollButton()};
+
+        function toggleScrollButton() {
+            if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+                scrollTopBtn.style.display = "block";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        }
+
+        // Scroll to the top function
+        function scrollToTop() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        }
+        function updateClock() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+
+            document.getElementById("clock").textContent = hours + ':' + minutes + ':' + seconds;
+        }
+
+        // Update the clock every second
+        setInterval(updateClock, 1000);
+        updateClock(); // initial call to set the time immediately
+    </script>
+</body>
+</html>
