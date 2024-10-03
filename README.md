@@ -22,7 +22,7 @@ To run the project locally on your machine:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/voyagenest.git
+   git clone [https://github.com/your-username/voyagenest.git](https://github.com/Anwarulh007/VoyageNest)
 2. **Open the Project**:
 Navigate to the project folder and open the index.html file in your web browser to explore the website locally.
 
