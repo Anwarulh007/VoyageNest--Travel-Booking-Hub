@@ -27,10 +27,10 @@ To run the project locally on your machine:
 Navigate to the project folder and open the index.html file in your web browser to explore the website locally.
 
 
-Screenshots 📸
+**Screenshots** 📸
 (Include a few beautiful screenshots of your website here to showcase its design and functionality)
 
-Live Demo 🔗
+**Live Demo** 🔗
 Visit VoyageNest – Experience our live demo and start planning your journey now!
 https://voyagenest.netlify.app/
 
