@@ -28,25 +28,26 @@ To run the project locally on your machine:
 Navigate to the project folder and open the index.html file in your web browser to explore the website locally.
 
 
-**Screenshots** 📸
+## Screenshots 📸
 (Include a few beautiful screenshots of your website here to showcase its design and functionality)
 
-**Live Demo** 🔗
-Visit VoyageNest – Experience our live demo and start planning your journey now!
-https://voyagenest.netlify.app/
+## Live Demo 🔗
+[Visit VoyageNest](https://voyagenest.netlify.app/) – Experience our live demo and start planning your journey now!
 
-Contributing 🤝
+## Contributing 🤝
 We welcome your contributions to enhance the platform and improve user experience! Feel free to open a pull request or issue if you have any suggestions or features to add.
 
-Contribution Guidelines:
+## Contribution Guidelines:
 Fork the repository.
 Create a new branch for your feature or bug fix.
 Make your changes and submit a pull request.
-License 📄
+
+## License 📄
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
-Contact 📧
+## Contact 📧
 For inquiries, feedback, or support, feel free to reach out:
-
 Email: youremail@example.com
-LinkedIn: Your LinkedIn Profile
+
+# Made with ♡ by Anwarul Haque
+
