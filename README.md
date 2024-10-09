@@ -23,7 +23,7 @@ To run the project locally on your machine:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Anwarulh007/VoyageNest
+   git clone https://github.com/Anwarulh007/VoyageNest--Travel-Booking-Hub
 2. **Open the Project**:
 Navigate to the project folder and open the index.html file in your web browser to explore the website locally.
 
